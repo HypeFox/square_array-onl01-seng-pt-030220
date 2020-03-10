@@ -1,8 +1,8 @@
 def square_array(array)
-   my_array = []
+   goon = []
    array.each do |n|
      square = n**2 
-     my_array << square
+     goon << square
    end
-   my_array
+   goon
 end
